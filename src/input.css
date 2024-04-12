@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer keyframes {
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+         @keyframes slideFromRight {
+             from {
+                 transform: translateX(100%);
+             }
+    
+             to {
+                 transform: translateX(0);
+             }
+         }
+}
+
+#animated-text {
+    animation: slideIn 1s forwards;
+    animation-delay: 0.5s;
+    /* Optional delay */
+}
+#animated-image {
+    animation: slideFromRight 1s forwards;
+    animation-delay: 0.5s;
+    /* Optional delay */
+}
+
+/* Apply transition and initial opacity styles to the ul */
+/* Apply transition and initial opacity styles to the ul */
+/* Hide the menu initially */
+/* Hide the menu initially */
+/* Hide the menu initially */
+.menuList {
+    display: none;
+}
+#sub {
+    visibility: hidden;
+    position: absolute;
+    right: 28px;
+
+    width: 100%;
+    top: 40px;
+    z-index: 1;
+    opacity: 0;
+
+
+}
+
+button:hover ul#sub {
+    opacity: 1;
+
+    visibility: visible;
+}
+
+#sub li {
+    float: none;
+    width: 100%;
+}
+/* Show the menu when the button is clicked on smaller screens 
+@media (max-width: 1023px) {
+    .menuList.active {
+        display: flex;
+      justify-content: flex-end;
+    }
+           .menuBtn.hidden {
+            float: right;
+           }
+}
+*/
+
+
+#skill h3 {
+    grid-column: 1 / -4;
+   
+    margin-bottom: 5px;
+    
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+
+
+
+}
+
+.skills{
+    @apply  block p-14 text-white rounded-md text-center
+}
+#mail {
+    writing-mode: vertical-lr;
+    /* Sets vertical writing mode from left to right */
+    text-orientation: mixed;
+    /* Allows mixed orientation if needed */
+    position: fixed;
+    /* Sets the position to fixed */
+    top: 550px;
+    /* Adjust as needed */
+    left: 20px;
+    color: #cee9e4;
+    /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    /* Centering horizontally and vertically */
+}
+
+#mail::after {
+    content: '';
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    /* Adjust the left position of the line */
+    transform: translateX(-50%);
+    width: 2px;
+    /* Adjust the width of the line */
+    height: 100%;
+    background-color: #cee9e4;
+    /* Adjust the color of the line */
+    z-index: -1;
+    /* Ensure the line is behind the icons */
+}
+ 

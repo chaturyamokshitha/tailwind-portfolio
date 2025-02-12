@@ -7,7 +7,7 @@ Here's a well-structured **README.md** template for your Tailwind CSS portfolio.
 Welcome to my personal portfolio website! 🚀 Built using **Tailwind CSS**, this project showcases my work, skills, and experiences.
 
 ## 🎨 Live Demo
-👉 [Insert Live Link Here](#) (If deployed)
+👉 https://tailwind-portfolio-git-main-chaturyamokshithas-projects.vercel.app/
 
 ---
 
@@ -107,16 +107,9 @@ npx vercel
 
 ## 👤 Author
 
-👋 Created by **[Your Name]**  
-📧 Contact: [your-email@example.com](mailto:your-email@example.com)  
-🔗 Portfolio: [your-portfolio.com](#) (Optional)
+👋 Created by **[Chaturya Mokshitha]**  
+📧 Contact: (mailto:chaturyamokshitha@gmail.com)  
 
----
 
-## 📜 License
 
-This project is licensed under the **MIT License**. Feel free to use and modify it.
 
----
-
-Let me know if you'd like to add anything specific! 🚀li
